@@ -1,7 +1,7 @@
-From fc7d40cf5b5d5fad04a3eaab830a84c247224ae2 Mon Sep 17 00:00:00 2001
+From 631c415898d1eb57db416297a5ab2e821b4b1d37 Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Tue, 23 Apr 2024 19:17:07 +0200
-Subject: [PATCH 3/9] Revert launcher icon back to MIUI 14
+Subject: [PATCH 4/10] Revert launcher icon back to MIUI 14
 
 Signed-off-by: Adithya R <gh0strider.2k18.reborn@gmail.com>
 ---

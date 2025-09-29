@@ -1,4 +1,4 @@
-From 727d260f0dda21b004a94d0242eacab9dfec8dfa Mon Sep 17 00:00:00 2001
+From efbd05668a44ab42639da0514d286dd87926648b Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Fri, 8 Mar 2024 02:11:53 +0100
 Subject: [PATCH 5/9] Support third party galleries
@@ -8,7 +8,7 @@ Subject: [PATCH 5/9] Support third party galleries
  1 file changed, 2 insertions(+), 6 deletions(-)
 
 diff --git a/smali/com/android/camera/l3.smali b/smali/com/android/camera/l3.smali
-index f348205c2..510101446 100644
+index de3defeb1..ecc8ba3b0 100644
 --- a/smali/com/android/camera/l3.smali
 +++ b/smali/com/android/camera/l3.smali
 @@ -1057,9 +1057,9 @@
