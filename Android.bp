@@ -75,7 +75,7 @@ android_app_import {
 	name: "MiuiCamera",
 	owner: "xiaomi",
 	apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
-	overrides: ["Camera", "Camera2", "GoogleCameraGo"],
+	overrides: ["Aperture", "Snap", "Camera2", "GoogleCameraGo"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -94,4 +94,3 @@ install_symlink {
 	installed_location: "system/priv-app/MiuiCamera/lib/arm64/libcamera_mianode_jni.xiaomi.so",
 	symlink_target: "/system/lib64/libcamera_mianode_jni.xiaomi.so",
 }
-

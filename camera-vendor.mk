@@ -5,7 +5,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/camera
 
-
 PRODUCT_PACKAGES += \
     libcamera_algoup_jni.xiaomi \
     libcamera_mianode_jni.xiaomi \

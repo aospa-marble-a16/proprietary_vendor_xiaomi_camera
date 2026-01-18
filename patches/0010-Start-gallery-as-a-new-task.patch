@@ -13,7 +13,7 @@ diff --git a/smali/com/android/camera/l3.smali b/smali/com/android/camera/l3.sma
 index a5c3e074d..986da34da 100644
 --- a/smali/com/android/camera/l3.smali
 +++ b/smali/com/android/camera/l3.smali
-@@ -1061,6 +1061,10 @@
+@@ -1055,6 +1055,10 @@
  
      invoke-virtual {p0, v0}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
  
@@ -23,7 +23,7 @@ index a5c3e074d..986da34da 100644
 +
      invoke-virtual {p1, p0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
  
-     invoke-virtual {p1}, Lcom/android/camera/ActivityBase;->ri()V
+     invoke-virtual {p1}, Lcom/android/camera/ActivityBase;->ri()Z
 -- 
-2.34.1
+2.47.2
 
